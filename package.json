@@ -1,10 +1,10 @@
 {
-  "name": "evaluation-js-template",
+  "name": "evaluation-js-playwright",
   "version": "0.0.1",
   "description": "This is a template repository to create test-ware for evaluating certain (JS) test automation tools.",
   "main": "-",
   "scripts": {
-    "test": "echo \"No tests defined\" && exit 1",
+    "test": "jest",
     "lint": "eslint tests --fix"
   },
   "repository": {
@@ -30,5 +30,10 @@
   },
   "husky": {
     "precommit": "npm run lint"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1",
+    "jest-playwright-preset": "^1.3.1",
+    "playwright": "^1.5.1"
   }
 }
