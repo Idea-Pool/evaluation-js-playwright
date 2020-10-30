@@ -6,11 +6,11 @@ describe("TC-1", () => {
     });
     test("Angular logo in the top navbar should be visible", async () => {
         const logo = await page.waitForSelector(".nav-link.home > img"); 
-        expect(logo).not.toBe(null);
+        expect(logo).not.toBeNull();
     });
     test("Angular logo in the hero section should be visible", async () => {
         const logo = await page.waitForSelector(".hero-logo > img");
-        expect(logo).not.toBe(null);
+        expect(logo).not.toBeNull();
     });
     test("Text in hero section should be \"One framework. Mobile & desktop.\"", async () => {
         const heroSection = await page.textContent(".hero-headline");
@@ -18,7 +18,7 @@ describe("TC-1", () => {
     });
     test("Get started button should be visible in the hero section", async () => {
         const button = await page.waitForSelector(".button.hero-cta");
-        expect(button).not.toBe(null);
+        expect(button).not.toBeNull();
     });
     test("When Get started button is clicked in the hero section, the URL should be https://angular.io/docs", async () => {
         const button = await page.waitForSelector(".button.hero-cta");
