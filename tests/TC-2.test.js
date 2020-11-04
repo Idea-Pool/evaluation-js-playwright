@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 describe("TC-2 Checking search field on landing page", () => {
     beforeAll(async () => {
         await page.goto("https://angular.io");
@@ -22,7 +23,6 @@ describe("TC-2 Checking search field on landing page", () => {
             const result = (await page.waitForSelector(resultXpath));
             return result;
         };
-
         test("When \"directive\" is typed in it, \"Directive\" should be listed in the \"API\" section", async () => {
             const searchInput = await page.$(".search-container > input");
             await searchInput.type("directive");

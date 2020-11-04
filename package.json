@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/idea-pool/evaluation-js-template#readme",
   "dependencies": {
+    "@types/jest": "^26.0.15",
     "eslint": "^7.0.0",
     "husky": "^4.2.5"
   },

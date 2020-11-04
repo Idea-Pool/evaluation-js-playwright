@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 describe("TC-1", () => {
     beforeAll(async () => {
         await page.goto("https://angular.io");
@@ -26,4 +27,4 @@ describe("TC-1", () => {
         await page.waitForSelector(".nav-link.home > img");
         expect(page.url()).toBe("https://angular.io/docs");
     });
-})
+});
