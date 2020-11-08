@@ -9,8 +9,8 @@ This is test-ware for evaluation of the Playwright test automation tool.
 ## Framework used
 
 ### Playwright
-https://playwright.dev
-https://playwright.dev/#?path=docs/api.md
+https://playwright.dev  
+https://playwright.dev/#?path=docs/api.md  
 
 Playwright is a Node.js library to automate Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, capable, reliable and fast.
 
