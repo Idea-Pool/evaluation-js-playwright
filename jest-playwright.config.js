@@ -1,5 +1,9 @@
 module.exports = {
     launchOptions: {
-        headless: true
+        headless: true,
+        timeout: 60000
+    },
+    contextOptions: {
+        timeout: 60000
     }
 }

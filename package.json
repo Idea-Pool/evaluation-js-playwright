@@ -1,7 +1,7 @@
 {
   "name": "evaluation-js-playwright",
-  "version": "0.0.1",
-  "description": "This is a template repository to create test-ware for evaluating certain (JS) test automation tools.",
+  "version": "1.0.0",
+  "description": "This is a repository to create test-ware for evaluating the Playwright test automation tool.",
   "main": "-",
   "scripts": {
     "test": "jest --runInBand",
@@ -9,14 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/szikszail/evaluation-template.git"
+    "url": "git+https://github.com/Idea-Pool/evaluation-js-playwright.git"
   },
   "keywords": [
     "Test",
     "automation",
     "Tool",
     "Evaluation",
-    "JavaScript"
+    "JavaScript",
+    "Playwright"
   ],
   "author": "Idea Pool <SpecialEPM-DEBIdeaPoolStaff@epam.com>",
   "license": "SEE LICENSE IN LICENSE.md",
